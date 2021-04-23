@@ -11,9 +11,9 @@
 [rankings]: ./results/final_rankings.png
 [50hz_plots]: ./results/50hz_plots.png
 
-#Optimization of Electrical Stimulation Parameters for the Quadriceps Femoris Muscle
+# Optimization of Electrical Stimulation Parameters for the Quadriceps Femoris Muscle
 
-##Knee Osteoarthritis & NMES
+## Knee Osteoarthritis & NMES
 Osteoarthritis (OA) is the most common form of arthritis and affects approximately 10% of the population over the age 
 of 55. Individuals suffering from OA experience pain in and around their knee, with this pain worsening under 
 weight-bearing activities. OA is also a major cause of early retirement, as it leads to significant pain and 
@@ -32,7 +32,7 @@ consist of determining which parameters produce the most sustained force with mi
 quadricep strength retention. To achieve this goal, a musculoskeletal model of the isometric contraction in the 
 rectus femoris quadricep muscle was created in Python.
 
-##Model Dynamics & Equations
+## Model Dynamics & Equations
 Modified Hill-Huxley Model of Quadriceps Femoris:
 
 ![hill_huxley]
@@ -74,13 +74,13 @@ enables inter-session comparison to track a subject’s muscle force physiology 
 
 ![strength_index]
 
-##Verification & Validation
-###Face Validity
+## Verification & Validation
+### Face Validity
 Model State Trajectories to 1 Hz CFT & 50 Hz CFT:
 
 ![face_validity]
 
-###Comparison to Experimental Data
+### Comparison to Experimental Data
 Predicted vs. Experimental Force Response of Model to A DFT155 Fatiguing Protocol:
 
 ![comparison]
@@ -88,7 +88,7 @@ Predicted vs. Experimental Force Response of Model to A DFT155 Fatiguing Protoco
 ![comparison_table]
 
 
-##Simulations & Results
+## Simulations & Results
 
 Sample Force vs. Time Simulation Plots:
 
@@ -102,7 +102,7 @@ Sample Stimulation & Force Response of DFT 50 Hz:
 
 ![50hz_plots]
 
-##Future Improvements
+## Future Improvements
 - Collect experimental data to provide better overview of entire NMES process
 - Redesign model to account for additional NMES stimulation parameters, such as
 pulse width and amplitude
